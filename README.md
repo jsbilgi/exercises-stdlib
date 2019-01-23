@@ -109,8 +109,8 @@ HUBSPOT_ITERATION_LIMIT to your properties file to enable the iteration limit if
 * Install Docker
 
 ### Local Docker setup
-* Build the Docker image of base-engine - Refer first 4 lines from "fire up the docker instance" heading to create image
-* Run the docker container - Refer 5th line from "fire up the docker instance" heading to run container 
+* Build the Docker image of base-engine - Refer 1 to 4 lines from "fire up the docker instance" section to create image
+* Run the docker container - Refer 5th line from "fire up the docker instance" section to run container 
 * Login to docker container
 
 	```
@@ -167,6 +167,7 @@ Base-connectors, application works on AWS along with trusted hosts. (DB hosts, H
 	-C ssh-forward-port
 	```
 	Run the process
+
 	On successful completetion mysql.model.csv file is available under "staging directory"/rdbms_model folder  
 
 * Build project using Maven. metamodel-bin.zip file will be created in target folder
